@@ -1,0 +1,7 @@
+void CPlusMFCDlg::OnBnClickedButton1()
+{
+	int a = GetDlgItemInt(IDC_EDIT1);
+	int b = GetDlgItemInt(IDC_EDIT2);
+	int c = a + b;
+	SetDlgItemInt(IDC_EDIT3, c);
+}
